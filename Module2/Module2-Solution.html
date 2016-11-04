@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment for Module 2</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div#cooler {
+  position: relative;
+  padding: 25px 10px 15px 25px;
+  width: 90%;
+  height: 150x;
+  background-color: #FF7F50;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  top: 8px;
+  color: black;
+}
+p {
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  color: white;
+  top: 0;
+  right: 0;
+}
+#chicken {
+  background-color: #A52A2A;
+  position: absolute;
+}
+#beef {
+  background-color: #DEB887;
+  position: absolute;
+}
+#sushi {
+  background-color: #5F9EA0;
+  position: absolute;
+}
+section {
+  clear: left;
+}
+/*  */
+.row {
+    width: 100%;
+}
+  /******** For tablet: ********/
+@media (min-width: 768px) and (max-width: 991px) {
+ .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+ .col-md-6,.col-md-7, .col-md-8, .col-md-9,.col-md-10,
+ .col-md-11, .col-md-12 {
+   float: left;
+   border: 1px solid black;
+   }
+    .col-md-1 {
+    width: 8.33%;
+    }
+    .col-md-2 {
+    width: 16.66%;
+    }
+    .col-md-3 {
+    width: 25%;
+    }
+    .col-md-4 {
+    width: 33.33%;
+    }
+    .col-md-5 {
+    width: 41.66%;
+    }
+    .col-md-6 {
+    width: 50%;
+    }
+    .col-md-7 {
+    width: 58.33%;
+    }
+    .col-md-8 {
+    width: 66.66%;
+    }
+    .col-md-9 {
+    width: 75%;
+    }
+    .col-md-10 {
+    width: 83.33%;
+    }
+    .col-md-11 {
+    width: 91.66%;
+    }
+    .col-md-12 {
+    width: 100%;
+    }
+}
+
+ /********* For desktop: *********/
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,.col-lg-7, .col-lg-8, .col-lg-9,.col-lg-10, .col-lg-11, .col-lg-12 {
+   float: left;
+   border: 1px solid black;
+   }
+    .col-lg-1 {
+    width: 8.33%;
+    }
+    .col-lg-2 {
+    width: 16.66%;
+    }
+    .col-lg-3 {
+    width: 25%;
+    }
+    .col-lg-4 {
+    width: 33.33%;
+    }
+    .col-lg-5 {
+    width: 41.66%;
+    }
+    .col-lg-6 {
+    width: 50%;
+    }
+    .col-lg-7 {
+    width: 58.33%;
+    }
+    .col-lg-8 {
+    width: 66.66%;
+    }
+    .col-lg-9 {
+    width: 75%;
+    }
+    .col-lg-10 {
+    width: 83.33%;
+    }
+    .col-lg-11 {
+    width: 91.66%;
+    }
+    .col-lg-12 {
+    width: 100%;
+    }
+}   
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div class="col-md-6 col-lg-4">
+  <div id="cooler">
+    <p id="chicken">Chicken</p>
+    <section>Coq au vin, "rooster/cock with wine" is a French dish of chicken braised with wine, lardons, mushrooms, and optionally garlic. A red Burgundy wine is typically used, though many regions of France make variants using local varietals.</section>
+  </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4">
+  <div id="cooler">  
+    <p id="beef">Beef</p>
+    <section>Stroganoff or Stroganov is a Russian dish of sautéed pieces of beef served in a sauce with smetana (sour cream). From its origins in mid-19th-century Russia, it has become popular around the world, with considerable variation from the original recipe.</section>
+  </div>
+  </div>
+  
+  <div class="col-md-12 col-lg-4">
+  <div id="cooler"> 
+    <p id="sushi">Sushi</p>
+    <section>Our Sushi is a preparation of white, short-grained, Japanese rice mixed with a dressing consisting of rice vinegar, sugar, salt, and occasionally kombu and sake. It is cooled to room temperature before being used for a filling in a sushi to avoid it becoming sticky.</section>
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
